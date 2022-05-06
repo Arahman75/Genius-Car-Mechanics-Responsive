@@ -1,0 +1,50 @@
+[
+    { 
+        "id": 1,
+        "name": "ENGIN DIAGNOSTIC",
+        "price":"100",
+        "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae aliquid facilis molestiae ducimus! Hic vero illum, a consequuntur accusantium fugiat possimus ipsa, iure reprehenderit facere sit dignissimos ratione quisquam laborum?",
+        "img":"https://i.ibb.co/dJVTS6C/1.jpg"
+
+    },
+    { 
+        "id": 2,
+        "name": "WHEEL ALIGNMENT",
+        "price":"150",
+        "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae aliquid facilis molestiae ducimus! Hic vero illum, a consequuntur accusantium fugiat possimus ipsa, iure reprehenderit facere sit dignissimos ratione quisquam laborum?",
+        "img":"https://i.ibb.co/XL7nVTz/2.jpg"
+
+    },
+    { 
+        "id": 3,
+        "name": "OIL CHANGING",
+        "price":"200",
+        "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae aliquid facilis molestiae ducimus! Hic vero illum, a consequuntur accusantium fugiat possimus ipsa, iure reprehenderit facere sit dignissimos ratione quisquam laborum?",
+        "img":"https://i.ibb.co/BBBqXt5/3.jpg"
+
+    },
+    { 
+        "id": 4,
+        "name": "BREAK REPARING",
+        "price":"250",
+        "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae aliquid facilis molestiae ducimus! Hic vero illum, a consequuntur accusantium fugiat possimus ipsa, iure reprehenderit facere sit dignissimos ratione quisquam laborum?",
+        "img":"https://i.ibb.co/DQcHFDP/4.jpg"
+
+    },
+    { 
+        "id": 5,
+        "name": "WASH AND GALSSING",
+        "price":"300",
+        "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae aliquid facilis molestiae ducimus! Hic vero illum, a consequuntur accusantium fugiat possimus ipsa, iure reprehenderit facere sit dignissimos ratione quisquam laborum?",
+        "img":"https://i.ibb.co/bbnnww4/5.jpg"
+
+    },
+    { 
+        "id": 6,
+        "name": "COMPLETE ANALYSISS",
+        "price":"350",
+        "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae aliquid facilis molestiae ducimus! Hic vero illum, a consequuntur accusantium fugiat possimus ipsa, iure reprehenderit facere sit dignissimos ratione quisquam laborum?",
+        "img":"https://i.ibb.co/yWcn9MN/6.jpg"
+
+    }
+]
