@@ -1,20 +1,17 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './Service.css';
-/*<a href="https://ibb.co/MScz9LR"><img src="https://i.ibb.co/XL7nVTz/2.jpg" alt="2" border="0"></a>
-<a href="https://ibb.co/M77MYsx"><img src="https://i.ibb.co/BBBqXt5/3.jpg" alt="3" border="0"></a>
-<a href="https://ibb.co/GRY4Dvf"><img src="https://i.ibb.co/DQcHFDP/4.jpg" alt="4" border="0"></a>
-<a href="https://ibb.co/9ZjjKKx"><img src="https://i.ibb.co/bbnnww4/5.jpg" alt="5" border="0"></a>
-<a href="https://ibb.co/FgLbrfh"><img src="https://i.ibb.co/yWcn9MN/6.jpg" alt="6" border="0"></a> */
 
 const Service = ({service}) => {
-    const {name,price,description,img}= service;
+    const {id,name,price,description,img}= service;
     return (
-        <div className='service'>
+        <div className='service pb-3'>
          
             <img src={img} alt="" />
             <h3>{name}</h3>
             <h5>{price}</h5>
             <p className='px-3'>{description}</p>
+           <a href={`/booking/${id}`}> <button className='btn btn-warning'>Book {name.toLowerCase()}</button></a>
         </div>
     );
 };
