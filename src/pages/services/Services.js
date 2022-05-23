@@ -5,7 +5,10 @@ import "./Services.css";
 const Services = () => {
     const [services, setServices] = useState([]);
     useEffect(()=>{
-        fetch("services.json")
+        //before
+        // fetch("services.json")
+        //new mongodb server
+        fetch('https://boiling-crag-29174.herokuapp.com/services')
         .then(res => res.json())
         .then(data => setServices(data))
     },[])
